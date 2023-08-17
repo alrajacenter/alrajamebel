@@ -7,7 +7,7 @@ document.querySelector("#hamburger-menu").onclick = (e) => {
 };
 
 // Toggle clas active untuk search form
-const searchForm = document.querySelector(".search-form");
+const searchForm = document.querySelector(".cari-form");
 const searcBox = document.querySelector("#search-box");
 
 document.querySelector("#search-button").onclick = (event) => {
