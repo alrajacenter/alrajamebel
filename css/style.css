@@ -102,7 +102,7 @@ body {
   content: "";
   display: block;
   position: absolute;
-  width: 100%;
+  width: 80%;
   height: 20%;
   bottom: 0;
   background: linear-gradient(
