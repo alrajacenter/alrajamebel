@@ -103,7 +103,7 @@ body {
 }
 
 .navbar .cari-form.active {
-  transform: scaley(1);
+  transform: scaleY(1);
 }
 
 .navbar .cari-form input {
