@@ -101,7 +101,7 @@ body {
   transform-origin: top;
   transition: 0.3s;
 }
-
+/* 
 .navbar .search-form.active {
   transform: scaleY(1);
 }
@@ -119,7 +119,7 @@ body {
   font-size: 0.5 rem;
   margin-right: 1.5rem;
   color: var(--bg);
-}
+} */
 
 /* Hero Section */
 .hero {
