@@ -87,40 +87,6 @@ body {
   display: none;
 }
 
-/* Navbar search form */
-/* .navbar .search-form {
-  position: absolute;
-  top: 100%;
-  right: 7%;
-  background-color: #fff;
-  display: flex;
-  width: 50rem;
-  height: 3rem;
-  align-items: center;
-  transform: scaleY(0);
-  transform-origin: top;
-  transition: 0.3s;
-} */
-/* 
-.navbar .search-form.active {
-  transform: scaleY(1);
-}
-
-.navbar .search-form input {
-  height: 100%;
-  width: 100%;
-  font-size: 1.3rem;
-  color: var(--bg);
-  padding: 1rem;
-}
-
-.navbar .search-form label {
-  cursor: pointer;
-  font-size: 0.5 rem;
-  margin-right: 1.5rem;
-  color: var(--bg);
-} */
-
 /* Hero Section */
 .hero {
   min-height: 100vh;
