@@ -10,7 +10,7 @@ document.querySelector("#hamburger-menu").onclick = (e) => {
 const searchForm = document.querySelector(".cari-form");
 const searcBox = document.querySelector("#search-box");
 
-document.querySelector("#search-button").onclick = (event) => {
+document.querySelector("#searhbtn").onclick = (event) => {
   searchForm.classList.toggle("active");
   searcBox.focus();
   event.preventDefault();
@@ -18,7 +18,7 @@ document.querySelector("#search-button").onclick = (event) => {
 
 // Klik diluar element
 const hm = document.querySelector("#hamburger-menu");
-const sb = document.querySelector("#search-button");
+const sb = document.querySelector("#searchbtn");
 
 document.addEventListener("click", function (e) {
   if (!hm.contains(e.target) && !navbarNav.contains(e.target)) {
