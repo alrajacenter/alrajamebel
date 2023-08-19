@@ -10,7 +10,7 @@ document.querySelector("#hamburger-menu").onclick = (e) => {
 const searchForm = document.querySelector(".cari-form");
 const searcBox = document.querySelector("#search-box");
 
-document.querySelector("#searhbtn").onclick = (event) => {
+document.querySelector("#searchbtn").onclick = (event) => {
   searchForm.classList.toggle("active");
   searcBox.focus();
   event.preventDefault();
