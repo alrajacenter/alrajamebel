@@ -10,10 +10,10 @@ document.querySelector("#hamburger-menu").onclick = (e) => {
 const searchForm = document.querySelector(".cari-form");
 const searcBox = document.querySelector("#search-box");
 
-document.querySelector("#searchbtn").onclick = (event) => {
+document.querySelector("#searchbtn").onclick = (e) => {
   searchForm.classList.toggle("active");
   searcBox.focus();
-  event.preventDefault();
+  e.preventDefault();
 };
 
 // Klik diluar element
