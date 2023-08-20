@@ -247,13 +247,6 @@ body {
   line-height: 1.6;
 }
 
-/* .menu .row {
-  display: flex;
-  flex-wrap: wrap;
-  margin-top: 5rem;
-  justify-content: center;
-} */
-
 .menu .row {
   display: grid;
   grid-template-columns: repeat(auto-fit, minmax(20rem, 1fr));
@@ -456,14 +449,6 @@ footer .credit a {
 
   .menu .row .menu-card .product-image img {
     height: 17rem;
-  }
-
-  .contact .row {
-    flex-wrap: wrap;
-  }
-
-  .contact .row .map {
-    height: auto;
   }
 }
 
