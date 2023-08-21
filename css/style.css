@@ -452,7 +452,7 @@ footer .credit a {
   }
 
   .promo .row .contain {
-    width: 40vmin;
+    /* width: 40vmin; */
   }
 
   .promo .row .promo-img img {
@@ -483,8 +483,5 @@ footer .credit a {
 @media (max-width: 414px) {
   html {
     font-size: 50%;
-  }
-  .promo .row .contain {
-    width: 50vmin;
   }
 }
