@@ -149,7 +149,7 @@ body {
 
 .hero .content {
   padding: 1.4rem 7%;
-  max-width: 100rem;
+  max-width: 90rem;
 }
 
 .hero .content h1 {
@@ -320,12 +320,9 @@ body {
   border: 1px solid var(--primary);
 }
 
-.menu .row .menu-card .product-image {
-  padding: 1rem 0;
-}
-
 .menu .row .menu-card .product-image img {
-  height: 25rem;
+  width: 100%;
+  padding: 0;
 }
 
 .menu .row .menu-card .product-content h3 {
@@ -451,9 +448,9 @@ footer .credit a {
     flex-wrap: wrap;
   }
 
-  .promo .row .contain {
-    /* width: 40vmin; */
-  }
+  /* .promo .row .contain { */
+  /* width: 40vmin; */
+  /* } */
 
   .promo .row .promo-img img {
     width: 100%;
