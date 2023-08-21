@@ -286,7 +286,7 @@ body {
 
 .menu .row {
   display: grid;
-  grid-template-columns: repeat(auto-fit, minmax(15rem, 1fr));
+  grid-template-columns: repeat(auto-fit, minmax(19rem, 1fr));
   gap: 1.5rem;
   margin-top: 4rem;
 }
@@ -322,7 +322,7 @@ body {
 
 .menu .row .menu-card .product-image img {
   width: 100%;
-  padding: 0;
+  margin: 0 0;
 }
 
 .menu .row .menu-card .product-content h3 {
