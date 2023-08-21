@@ -209,8 +209,8 @@ body {
 }
 
 .promo .row .contain {
-  flex: 1 1 35rem;
-  width: 85vmin;
+  /* flex: 1 1 35rem; */
+  width: 80vmin;
   overflow: hidden;
   border: 5px solid #fff;
   border-radius: 8px;
@@ -452,11 +452,11 @@ footer .credit a {
   }
 
   .promo .row .contain {
-    width: 50vmin;
+    width: 40vmin;
   }
 
   .promo .row .promo-img img {
-    height: 25rem;
+    width: 100%;
     object-fit: cover;
     object-position: center;
   }
