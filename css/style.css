@@ -209,14 +209,14 @@ body {
 }
 
 .promo .row .contain {
-  width: 60vmin;
+  /* flex: 1 1 45rem; */
+  width: 85vmin;
   overflow: hidden;
   border: 5px solid #fff;
   border-radius: 8px;
 }
 
 .promo .row .promo-img {
-  flex: 1 1 45rem;
   display: flex;
   width: 100%;
   animation: slide 15s infinite;
@@ -452,11 +452,7 @@ footer .credit a {
   }
 
   .promo .row .contain {
-    width: 40vmin;
-  }
-
-  .promo .row .contain {
-    display: flex;
+    width: 50vmin;
   }
 
   .promo .row .promo-img img {
@@ -484,11 +480,11 @@ footer .credit a {
 }
 
 /* Mobile */
-@media (max-width: 450px) {
+@media (max-width: 414px) {
   html {
     font-size: 50%;
   }
   .promo .row .contain {
-    width: 55vmin;
+    width: 50vmin;
   }
 }
